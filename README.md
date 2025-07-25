@@ -86,9 +86,21 @@ Bank-Management-System/
 ├── data/
 │   ├── data_source/
 │   │   ├── auth/
+│   │   │   ├── interface/
+│   │   │   └── implementations/
+│   │   │       └── txt/
 │   │   ├── users/
+│   │   │   ├── interface/
+│   │   │   └── implementations/
+│   │   │       └── txt/
 │   │   ├── clients/
+│   │   │   ├── interface/
+│   │   │   └── implementations/
+│   │   │       └── txt/
 │   │   └── currencies/
+│   │       ├── interface/
+│   │       └── implementations/
+│   │           └── txt/
 │   ├── models/
 │   └── services/
 │       └── txt/
