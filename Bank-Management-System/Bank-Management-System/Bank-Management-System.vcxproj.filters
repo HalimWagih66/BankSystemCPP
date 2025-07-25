@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{ada1324e-2945-420f-aaa1-55bcfac35933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants">
+      <UniqueIdentifier>{cfbe6330-a030-46c5-ae8a-43672488483b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants\file_pathes">
+      <UniqueIdentifier>{2acb75f2-4bb1-4ded-8659-7629260ae432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils">
+      <UniqueIdentifier>{7e225885-6005-432e-9934-5f7a23f9dcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils\implementaions">
+      <UniqueIdentifier>{b7b9e955-bb4f-46fe-94e0-b23a7731575c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils\headers">
+      <UniqueIdentifier>{b8e5d57e-4069-4bb4-98f6-79d124cf2521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\types">
+      <UniqueIdentifier>{731c9262-5e76-4216-b35d-e999bc8245b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants\messages">
+      <UniqueIdentifier>{66dd8b0a-aaca-46c8-8aee-a7c68bf4181a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{975f03ea-6e22-4941-b18b-0e666782e274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\models">
+      <UniqueIdentifier>{f67d0892-01c2-44e5-be70-151c491d0713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source">
+      <UniqueIdentifier>{7fcba40c-a68b-4085-b099-e0d6389351be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\services">
+      <UniqueIdentifier>{ec66ed1f-4174-4b38-8d10-863feecf0d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\services\txt">
+      <UniqueIdentifier>{c7e78767-6d3b-4dae-adab-a92bf7ee707f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth">
+      <UniqueIdentifier>{95ddcd5e-4791-4cc8-b046-5c28eca8ccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients">
+      <UniqueIdentifier>{5b5c6d26-c127-4274-a4e4-6dfca49e0fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\interface">
+      <UniqueIdentifier>{42aa547e-59a5-4143-9692-390e9f7632d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\implementations">
+      <UniqueIdentifier>{7763c12f-d799-4322-9972-72e366e661a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\implementations">
+      <UniqueIdentifier>{d51c9a0c-500b-4b97-b95e-198a0a72cae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\implementations\txt">
+      <UniqueIdentifier>{c2d4648f-cf9f-411e-915e-48c6407be76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\session">
+      <UniqueIdentifier>{d73e0dd7-5d7b-41f4-a707-9a80422f9d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{23f8436f-6ab6-458b-b231-8e5690fb650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\transactions">
+      <UniqueIdentifier>{a410af09-5ec3-47e9-84b5-4a79f583d8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\clients">
+      <UniqueIdentifier>{530a79b1-2087-4cb8-9731-ff678c30ae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\users">
+      <UniqueIdentifier>{23d9b81e-4b1e-4219-a91f-45c0233f8cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\clients\screens">
+      <UniqueIdentifier>{ba22a65b-391d-40a3-9e57-6036e0d6b2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\transactions\screens">
+      <UniqueIdentifier>{883079f2-fc48-48b6-93f6-98a00ad9d836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\users\screens">
+      <UniqueIdentifier>{675bd09f-efb1-4db2-bd11-9865213ee8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\clients\view_model">
+      <UniqueIdentifier>{09f27363-9c98-4f08-9e8f-1f0737071f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\transactions\view_model">
+      <UniqueIdentifier>{bffa6ed0-2f31-4bd2-98b0-b8d2bca958bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\users\view_model">
+      <UniqueIdentifier>{bd47dd77-d06f-4a03-b600-2b8af52b2ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="di">
+      <UniqueIdentifier>{a02abe59-e473-46ce-b4a5-95b1c32f9ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="di\view_model_provider">
+      <UniqueIdentifier>{6e33a1bc-8ae1-4e99-a83b-3b3d90471346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\base">
+      <UniqueIdentifier>{b5ff460c-fc80-4733-905d-9f2c02e9fbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\clients\helpers">
+      <UniqueIdentifier>{681d27f5-3011-47a9-a226-c661df7f8343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\users\helpers">
+      <UniqueIdentifier>{91dee775-fc93-4dd5-b331-7ae1d0bd132f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\interfaces">
+      <UniqueIdentifier>{4009dd57-8c8c-4800-9b39-4a45eec1365b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\implementations\txt">
+      <UniqueIdentifier>{a73d1bfb-fec8-4b77-94a7-e3638d103391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\auth">
+      <UniqueIdentifier>{4ff39b0d-b626-4529-a805-586c343f19fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\auth\screens">
+      <UniqueIdentifier>{661174d9-1376-48c5-9717-2cd89a4bd6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\auth\view_model">
+      <UniqueIdentifier>{9723c3b1-db3b-4bd9-a3fb-1b52e6517b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\users">
+      <UniqueIdentifier>{608e99e5-a1e6-4695-be87-8a5e33672c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\users\interface">
+      <UniqueIdentifier>{4737b9aa-f383-4e10-869e-85b1fc4aadb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\users\implementations">
+      <UniqueIdentifier>{c2422d36-3762-408b-bf37-05deb0a7ab88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\users\implementations\txt">
+      <UniqueIdentifier>{b3595cf5-2721-46bc-a048-6967afb9b490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\currencies">
+      <UniqueIdentifier>{334e5949-d1bf-4be7-96af-1066d0a8e730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\currencies\interface">
+      <UniqueIdentifier>{2286bb0b-b0d7-4b2f-a1a0-2198e6f5afce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\currencies\implementations">
+      <UniqueIdentifier>{862894ab-6128-436a-bac6-0693162b2562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\currencies\implementations\txt">
+      <UniqueIdentifier>{9ce2256a-6ca4-4e52-8332-d8eb26225028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\Currencies">
+      <UniqueIdentifier>{c8976df9-0506-4ebe-bfe9-afa59e322174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\Currencies\screens">
+      <UniqueIdentifier>{bd9afe2b-939a-4ab3-b6d5-5dbcd4a2f3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\Currencies\view_model">
+      <UniqueIdentifier>{bd1750e6-ca99-4b17-bc25-8bfed1ebeefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\Currencies\helpers">
+      <UniqueIdentifier>{1b7fa453-89af-4348-9f0a-81b7244286f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants\Permissions">
+      <UniqueIdentifier>{d45f07e4-b614-4c69-a585-2a98c7488feb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="core\constants\file_pathes\file_pathes.cpp">
+      <Filter>core\constants\file_pathes</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\big_number_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\console_helper.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\input_validator_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\string_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\data_reader.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\constants\Messages\messages.cpp">
+      <Filter>core\constants\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\encryption.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="core\utils\implementaions\date_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\auth\implementations\txt\auth_txt_data_source.cpp">
+      <Filter>data\data_source\auth\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="data\services\txt\file_txt_manager.cpp">
+      <Filter>data\services\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="core\session\current_session.cpp">
+      <Filter>core\session</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\users\implementations\txt\user_txt_data_source.cpp">
+      <Filter>data\data_source\users\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\clients\view_model\clients_view_model.cpp">
+      <Filter>presentation\clients\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\users\view_model\users_view_model.cpp">
+      <Filter>presentation\users\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\transactions\view_model\transactions_view_model.cpp">
+      <Filter>presentation\transactions\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="di\view_model_provider\view_model_provider.cpp">
+      <Filter>di\view_model_provider</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\clients\implementations\txt\client_txt_data_source.cpp">
+      <Filter>data\data_source\clients\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\auth\view_model\auth_view_model.cpp">
+      <Filter>presentation\auth\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\currencies\implementations\txt\currencies_txt_data_source.cpp">
+      <Filter>data\data_source\currencies\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\currencies\view_model\currencies_view_model.cpp">
+      <Filter>presentation\Currencies\view_model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\constants\file_pathes\file_pathes.h">
+      <Filter>core\constants\file_pathes</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\result_status.h">
+      <Filter>core\types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\big_number_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\console_helper.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\data_reader.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\input_validator_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\encryption.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\string_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils\headers\date_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core\constants\Messages\messages.h">
+      <Filter>core\constants\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\auth\interface\interface_auth_data_source.h">
+      <Filter>data\data_source\auth\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\auth\implementations\txt\auth_txt_data_source.h">
+      <Filter>data\data_source\auth\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\user_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\person_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\bank_client_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\login_register_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\transfer_log_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\users\interface\interface_user_data_source.h">
+      <Filter>data\data_source\users\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="data\services\txt\file_txt_manager.h">
+      <Filter>data\services\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="core\session\current_session.h">
+      <Filter>core\session</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\users\implementations\txt\user_txt_data_source.h">
+      <Filter>data\data_source\users\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\view_model\clients_view_model.h">
+      <Filter>presentation\clients\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\view_model\users_view_model.h">
+      <Filter>presentation\users\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\view_model\transactions_view_model.h">
+      <Filter>presentation\transactions\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="di\view_model_provider\view_model_provider.h">
+      <Filter>di\view_model_provider</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\screens\cls_add_new_client_screen.h">
+      <Filter>presentation\clients\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\screens\cls_client_list_screen.h">
+      <Filter>presentation\clients\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\screens\cls_delete_client_screen.h">
+      <Filter>presentation\clients\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\screens\cls_find_client_screen.h">
+      <Filter>presentation\clients\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\screens\cls_update_client_screen.h">
+      <Filter>presentation\clients\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\base\base_screen.h">
+      <Filter>presentation\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\clients\helpers\client_ui_helpers.h">
+      <Filter>presentation\clients\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\cls_main_screen.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\cls_add_new_user_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\cls_delete_user_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\cls_find_user_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\cls_manage_users_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\cls_update_user_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\screens\user_list_screen.h">
+      <Filter>presentation\users\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\users\helpers\user_ui_helpers.h">
+      <Filter>presentation\users\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_deposit_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_total_balance_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_transactions_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_transfer_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_transfers_log_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\transactions\screens\cls_withdraw_screen.h">
+      <Filter>presentation\transactions\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\clients\interface\interface_client_data_source.h">
+      <Filter>data\data_source\clients\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\clients\implementations\txt\client_txt_data_source.h">
+      <Filter>data\data_source\clients\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\auth\screens\login_screen.h">
+      <Filter>presentation\auth\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\auth\view_model\auth_view_model.h">
+      <Filter>presentation\auth\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\auth\screens\logout_screen.h">
+      <Filter>presentation\auth\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\auth\screens\login_register_Screen.h">
+      <Filter>presentation\auth\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\currencies\interface\interface_currencies_data_source.h">
+      <Filter>data\data_source\currencies\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\currencies\implementations\txt\currencies_txt_data_source.h">
+      <Filter>data\data_source\currencies\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\view_model\currencies_view_model.h">
+      <Filter>presentation\Currencies\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\screens\currency_exchange_main_screen.h">
+      <Filter>presentation\Currencies\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\currency_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\helpers\currency_ui_helpers.h">
+      <Filter>presentation\Currencies\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\screens\currencies_list_screen.h">
+      <Filter>presentation\Currencies\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\screens\find_currency_screen.h">
+      <Filter>presentation\Currencies\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\screens\update_currency_rate_screen.h">
+      <Filter>presentation\Currencies\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\currencies\screens\currency_calculator_screen.h">
+      <Filter>presentation\Currencies\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="core\constants\Permissions\permissions_constants.h">
+      <Filter>core\constants\Permissions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
