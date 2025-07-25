@@ -68,6 +68,106 @@
 
   <hr>
 
+  <h2>🏗️ Project Structure</h2>
+
+  <pre><code>
+Bank-Management-System/
+├── core/
+│   ├── constants/
+│   │   ├── file_paths/
+│   │   ├── messages/
+│   │   └── permissions/
+│   ├── session/
+│   ├── types/
+│   └── utils/
+│       ├── headers/
+│       └── implementations/
+│
+├── data/
+│   ├── data_source/
+│   │   ├── auth/
+│   │   ├── users/
+│   │   ├── clients/
+│   │   └── currencies/
+│   ├── models/
+│   └── services/
+│       └── txt/
+│           └── file_txt_manager/
+│
+├── di/
+│   └── view_model_provider/
+│
+├── main/
+│   └── main.cpp
+│
+├── Presentation/
+│   ├── base/
+│   │   └── base_screen.h
+│   ├── auth/
+│   │   ├── screens/
+│   │   └── view_model/
+│   ├── users/
+│   │   ├── helpers/
+│   │   ├── screens/
+│   │   └── view_model/
+│   ├── clients/
+│   │   ├── helpers/
+│   │   ├── screens/
+│   │   └── view_model/
+│   └── currencies/
+│       ├── helpers/
+│       ├── screens/
+│       └── view_model/
+│
+├── cls_main_screen.h
+│
+└── Data/
+    └── txt/
+        ├── Users/
+        ├── Clients/
+        └── Currencies/
+  </code></pre>
+
+  <hr>
+
+  <h2>🛠️ Build & Run</h2>
+  <ol>
+    <li>Clone the repository:<br>
+      <code>git clone https://github.com/HalimWagih66/BankSystemCPP.git</code>
+    </li>
+    <li>Navigate into the project folder:<br>
+      <code>cd BankSystemCPP</code>
+    </li>
+    <li>Compile the project:<br>
+      <code>g++ -std=c++14 main.cpp core/**/*.cpp data/**/*.cpp Presentation/**/*.cpp -o BankSystem</code>
+    </li>
+    <li>Run the program:<br>
+      <code>./BankSystem</code>
+    </li>
+  </ol>
+
+  <hr>
+
+  <h2>⚙️ Assumptions & Requirements</h2>
+  <ul>
+    <li>Console-based interface (no GUI)</li>
+    <li>Works on Windows or Linux</li>
+    <li>Single-user access only</li>
+    <li>Text files are used for data storage</li>
+    <li>Error handling is minimal</li>
+  </ul>
+
+  <hr>
+
+  <h2>🧠 Design Notes</h2>
+  <ul>
+    <li>Modular codebase with separation of concerns</li>
+    <li>Singleton Pattern used in managers</li>
+    <li>Directory-based architecture</li>
+  </ul>
+
+  <hr>
+
   <h2>🔑 Default Admin Login</h2>
   <p>You can log in using the following default administrator credentials:</p>
   <ul>
