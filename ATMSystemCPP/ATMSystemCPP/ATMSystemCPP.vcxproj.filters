@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{e7b0efba-c828-4b30-bdd0-90c235bf1c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source">
+      <UniqueIdentifier>{a52ee07b-6827-43c6-8f32-15405a2ff19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\models">
+      <UniqueIdentifier>{308c70bb-c3c6-4421-b04e-32c58db54c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\services">
+      <UniqueIdentifier>{07047bd1-fab3-4bde-963c-8f32536d6d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\services\txt">
+      <UniqueIdentifier>{cfdec1af-11b7-443b-bef1-6dda5bb74cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth">
+      <UniqueIdentifier>{594a9022-7a1e-4f8d-af2b-851e112c1926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients">
+      <UniqueIdentifier>{d259176e-0050-403c-a945-a9a0b3e8b13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\implementations">
+      <UniqueIdentifier>{ab258a13-2a23-4450-99a5-7ca2c98f47bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\implementations">
+      <UniqueIdentifier>{8271bb50-c765-4db4-8fba-6aba727a7cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\interface">
+      <UniqueIdentifier>{0c9b4710-a0f9-4304-b586-5356adbdd21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\interface">
+      <UniqueIdentifier>{583a3db0-4b81-4061-96c0-1b3be4ee6ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\auth\implementations\txt">
+      <UniqueIdentifier>{75fe8140-1bfc-42ef-933a-c9482aa89328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\data_source\clients\implementations\txt">
+      <UniqueIdentifier>{427cbc18-2dd7-400d-a17e-2774f4a95359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{da2707cd-b19c-481e-ac4e-51a54ed7f7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\auth">
+      <UniqueIdentifier>{8f172e8b-8e9d-4f80-a09a-2621a29c33de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c79e458d-829b-410a-a43c-47c58582310c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils">
+      <UniqueIdentifier>{d6115a8d-a071-47fd-b946-e77343c99df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils\headers">
+      <UniqueIdentifier>{cce62862-3be9-4d31-b061-c1991e49445d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\utils\implementaions">
+      <UniqueIdentifier>{49c0de17-094a-4f66-be36-2de3d7c040e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\types">
+      <UniqueIdentifier>{72ca6a0e-7808-4681-ada1-d8a6ba78bb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\session">
+      <UniqueIdentifier>{b019356d-0091-41ea-b625-fea71a4d6baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants">
+      <UniqueIdentifier>{4bf94b5c-486c-4009-8b3e-18b68083be87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants\file_pathes">
+      <UniqueIdentifier>{bcdabe68-9936-433f-a88d-209ca3580ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\constants\Messages">
+      <UniqueIdentifier>{afd652de-fde7-4a1f-aef3-313d3aec3b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="presentation\auth\screens">
+      <UniqueIdentifier>{26831fe2-d188-4d36-aa17-c0e5acb4400d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\auth\view_model">
+      <UniqueIdentifier>{5fb101b1-ab2d-44bd-9b03-6fadc52c36be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\base">
+      <UniqueIdentifier>{b882a875-c3a6-4bf0-af9e-6da9e5e71d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\atm">
+      <UniqueIdentifier>{a30f3362-254b-4c42-b792-c43789539ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\atm\screens">
+      <UniqueIdentifier>{86d855e6-11a5-4b88-9de5-1bd2733a7838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\atm\view_model">
+      <UniqueIdentifier>{baf14c84-cf94-4b62-b326-273a818c287e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view_model_provider">
+      <UniqueIdentifier>{d5185060-24f1-467c-ae04-ae43af2c4706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\utils\implementaions\big_number_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\console_helper.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\data_reader.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\date_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\encryption.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\input_validator_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\utils\implementaions\string_utils.cpp">
+      <Filter>core\utils\implementaions</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\session\current_session.cpp">
+      <Filter>core\session</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\constants\Messages\messages.cpp">
+      <Filter>core\constants\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\constants\file_pathes\file_pathes.cpp">
+      <Filter>core\constants\file_pathes</Filter>
+    </ClCompile>
+    <ClCompile Include="data\services\txt\file_txt_manager.cpp">
+      <Filter>data\services\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\auth\implementations\txt\auth_txt_data_source.cpp">
+      <Filter>data\data_source\auth\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data_source\clients\implementations\txt\client_txt_data_source.cpp">
+      <Filter>data\data_source\clients\implementations\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="presentation\auth\view_model\auth_view_model.cpp">
+      <Filter>presentation\auth\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="presentation\atm\view_model\atm_view_model.cpp">
+      <Filter>presentation\atm\view_model</Filter>
+    </ClCompile>
+    <ClCompile Include="view_model_provider\view_model_provider.cpp">
+      <Filter>view_model_provider</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\utils\headers\big_number_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\console_helper.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\data_reader.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\date_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\encryption.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\input_validator_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\utils\headers\string_utils.h">
+      <Filter>core\utils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\types\result_status.h">
+      <Filter>core\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\session\current_session.h">
+      <Filter>core\session</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\constants\Messages\messages.h">
+      <Filter>core\constants\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\constants\file_pathes\file_pathes.h">
+      <Filter>core\constants\file_pathes</Filter>
+    </ClInclude>
+    <ClInclude Include="data\services\txt\file_txt_manager.h">
+      <Filter>data\services\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\bank_client_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\auth\implementations\txt\auth_txt_data_source.h">
+      <Filter>data\data_source\auth\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\auth\interface\interface_auth_data_source.h">
+      <Filter>data\data_source\auth\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\clients\implementations\txt\client_txt_data_source.h">
+      <Filter>data\data_source\clients\implementations\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_source\clients\interface\interface_client_data_source.h">
+      <Filter>data\data_source\clients\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\auth\view_model\auth_view_model.h">
+      <Filter>presentation\auth\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="data\models\person_model.h">
+      <Filter>data\models</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\auth\screens\login_screen.h">
+      <Filter>presentation\auth\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\auth\screens\logout_screen.h">
+      <Filter>presentation\auth\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\base\base_screen.h">
+      <Filter>presentation\base</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\screens\atm_screen.h">
+      <Filter>presentation\atm\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\screens\quick_withdraw_screen.h">
+      <Filter>presentation\atm\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\screens\normal_withdraw_screen.h">
+      <Filter>presentation\atm\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\screens\deposit_screen.h">
+      <Filter>presentation\atm\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\screens\check_balance_screen.h">
+      <Filter>presentation\atm\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\atm\view_model\atm_view_model.h">
+      <Filter>presentation\atm\view_model</Filter>
+    </ClInclude>
+    <ClInclude Include="view_model_provider\view_model_provider.h">
+      <Filter>view_model_provider</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
