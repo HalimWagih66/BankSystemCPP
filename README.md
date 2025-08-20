@@ -169,12 +169,40 @@ Bank-Management-System/
         ├── Clients/
         └── Currencies/
 
-ATM-System/   <-- Separate complementary project
-├── main.cpp
-├── core/
-├── data/
-├── services/
-└── screens/
+  <pre>
+  ATM-System/
+  ├── core
+  │   ├── constants
+  │   ├── session
+  │   ├── utils
+  │   └── types
+  ├── data
+  │   ├── data_source
+  │   │   ├── clients
+  │   │   │   ├── implementations
+  │   │   │   │   └── txt
+  │   │   │   └── interface
+  │   │   └── auth
+  │   │       ├── implementations
+  │   │       │   └── txt
+  │   │       └── interface
+  │   ├── models
+  │   │   ├── person_model
+  │   │   └── bank_client_model
+  │   └── services
+  │       └── txt
+  ├── view model provider
+  ├── presentation
+  │   ├── auth
+  │   │   ├── screens
+  │   │   └── view model
+  │   ├── atm
+  │   │   ├── screens
+  │   │   └── view model
+  │   └── base
+  │       └── base_screen
+  └── main
+      └── main.cpp
   </code></pre>
 
   <hr>
